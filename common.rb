@@ -1,5 +1,6 @@
 require 'bundler/setup'
 require 'active_record'
+require 'benchmark'
 
 db_config = {
   adapter:  "postgresql",
